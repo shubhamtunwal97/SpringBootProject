@@ -6,4 +6,11 @@
 
     <!--    <bean id="vehicle" class="org.example.testDI.Car"></bean>-->
     <context:component-scan base-package="org.example.testDI"></context:component-scan>
+
+    <bean
+        id="tyre" class="org.example.testDI.Tyre">
+        <property name="brand" value="MRF"></property>
+    </bean>
+
+
 </beans>

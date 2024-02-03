@@ -33,6 +33,9 @@ we create a new object we must not change anything into this file..See eg belw
 
         obj.drive();
 
+        Tyre t = (Tyre) context.getBean("tyre");
+        t.toString();
+
 
     }
 }
