@@ -1,7 +1,8 @@
 package org.example.testDI;
 
+import org.springframework.stereotype.Component;
 
-//Bean Property
+@Component
 public class Tyre {
 
     private String brand;

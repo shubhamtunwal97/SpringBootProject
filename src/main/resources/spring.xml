@@ -7,11 +7,11 @@
     <!--    <bean id="vehicle" class="org.example.testDI.Car"></bean>-->
     <context:component-scan base-package="org.example.testDI"></context:component-scan>
 
-    <bean
-        id="tyre" class="org.example.testDI.Tyre">
-<!--        <property name="brand" value="MRF"></property> below is constructr injection -->
-        <constructor-arg value="MRF-1"></constructor-arg>
-    </bean>
+<!--    <bean-->
+<!--        id="tyre" class="org.example.testDI.Tyre">-->
+<!--&lt;!&ndash;        <property name="brand" value="MRF"></property> below is constructr injection &ndash;&gt;-->
+<!--        <constructor-arg value="MRF-1"></constructor-arg>-->
+<!--    </bean>-->
 
 
 </beans>
