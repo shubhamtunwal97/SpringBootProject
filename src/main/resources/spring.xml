@@ -9,7 +9,8 @@
 
     <bean
         id="tyre" class="org.example.testDI.Tyre">
-        <property name="brand" value="MRF"></property>
+<!--        <property name="brand" value="MRF"></property> below is constructr injection -->
+        <constructor-arg value="MRF-1"></constructor-arg>
     </bean>
 
 
