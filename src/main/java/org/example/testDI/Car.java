@@ -1,8 +1,16 @@
 package org.example.testDI;
 
-public class Car {
 
-    public void drive(){
+import org.springframework.stereotype.Component;
+
+@Component
+public class Car implements Vehicle{
+
+
+    @Override
+    public void drive() {
         System.out.println("Car vruuuummmm....");
+
+
     }
 }
