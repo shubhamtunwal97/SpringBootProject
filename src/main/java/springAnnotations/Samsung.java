@@ -1,5 +1,6 @@
 package springAnnotations;
 
+
 public class Samsung {
 
     public void config(){
